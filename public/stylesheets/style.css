@@ -1,0 +1,535 @@
+/* RESET CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--white-light);
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CSS HEADER*/
+header {
+  display: flex;
+}
+
+/*CSS MAIN CADASTRO*/
+
+main {
+  background-image: url('/images/backgroundImage.svg');
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#section1 {
+  margin-top: 30px;
+}
+#apresentacaoCadastro {
+  width: 717px;
+  margin-left: 120px;
+}
+
+#apresentacaoCadastro h3 {
+  font-size: 40px;
+}
+
+#apresentacaoCadastro p {
+  font-size: 19px;
+}
+
+#posterCadastro {
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+#posterOdisseia {
+  margin-left: 20px;
+}
+
+#section2 {
+  width: 518px;
+  height: 597px;
+  background: rgba(196, 196, 196, 0.1);
+  margin-left: 250px;
+  margin-top: 73px;
+  margin-bottom: 120px;
+}
+
+#formularioCadastro {
+  margin-left: 30px;
+}
+
+#cadastro {
+  margin-top: 20px;
+}
+
+.mainCadastro div {
+  margin-top: 20px;
+}
+
+.mainCadastro input {
+  width: 464px;
+  height: 28px;
+  color: white;
+  background-color: #484848cc;
+}
+
+#genero {
+  margin-top: 20px;
+}
+
+#criarContaHome {
+  margin-top: 5px;
+}
+
+.botaoSubmit {
+  width: 150px;
+  height: 40px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #bc0000;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+
+a #criarContaHome {
+  width: 250px;
+  margin-left: 20px;
+}
+
+/* CSS RESULTADO FILME*/
+
+#sectionSinopse {
+  display: flex;
+}
+
+#posterResultadoFilmes {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+#nomePoster p {
+  font-size: 27px;
+  background-color: #48484899;
+  width: fit-content;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#avaliacaoFilme {
+  background-color: #48484899;
+  margin-left: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#sinopse {
+  display: flex;
+  flex-direction: column;
+  width: 657px;
+  height: 302px;
+  background: rgba(196, 196, 196, 0.1);
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+#sinopse p {
+  font-size: 27px;
+  margin-left: 20px;
+}
+
+#infoFilme {
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#proximasSessoes {
+  width: 657px;
+  height: 302px;
+  background-color: #20202099;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 27px;
+}
+
+#proximasSessoes p {
+  margin-left: 60px;
+}
+
+#infoSessoes {
+  display: flex;
+  background-color: #202020;
+  width: 450px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+#proximasSessoes button {
+  width: 209px;
+  height: 33px;
+  border-radius: 23px;
+  background-color: #bc0000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  border: none;
+  color: white;
+  margin-left: 420px;
+  margin-top: 175px;
+}
+
+#conteudoForumPaginaResultado {
+  margin-left: 30px;
+}
+
+#proximasSessoes button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+#linhaVerticalPaginaResultado {
+  height: 816px;
+  border-right: 5px solid #383838;
+  margin-left: 35px;
+}
+
+#sectionForumPaginaResultado {
+  width: 597px;
+  height: 670px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.1);
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#sectionForumPaginaResultado p {
+  margin-left: 20px;
+}
+#forumResultadoFilme {
+  width: 597px;
+  height: 750px;
+  background-color: #20202099;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+#linhaHorizontalPaginaCadastro {
+  width: 515px;
+  border: 2px solid #c4c4c480;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#conteudoForumPaginaResultado h4 {
+  margin-bottom: 20px;
+}
+
+#tituloTopicoPaginaResultado {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+#conteudoTopicoCadastro {
+  width: 440px;
+  height: auto;
+  background-color: #48484899;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+#verMaisResultadoFilme {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#linhaHorizontalPaginaCadastro {
+  width: 515px;
+  border: 2px solid #c4c4c480;
+}
+
+#ultimasAtividadesForum {
+  margin-top: 20px;
+}
+
+#verMaisResultadoFilme button {
+  color: white;
+  background-color: #bc0000;
+  width: 95px;
+  height: 30px;
+  border-radius: 15px;
+  font-family: 'poppins';
+}
+
+#verMaisResultadoFilme button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+/* CSS HOME FORUM*/
+
+#mainHomeForum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sectionForum1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#sectionForum1 button {
+  width: 171px;
+  height: 30px;
+  border-radius: 14px;
+  background-color: #bc0000;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 900px;
+}
+
+#sectionForum1 button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+#mensagensFimatchForum {
+  margin-bottom: 30px;
+}
+
+.container1Forum {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  width: 1092px;
+  border-radius: 20px;
+  border-top: 10px solid #ababab4d;
+}
+
+#posts1Forum {
+  background-color: #3d3d3da6;
+  border-radius: 10px;
+  width: 100px;
+}
+
+#posts1Forum p {
+  margin-left: 17px;
+  margin-top: 35px;
+}
+
+#conteudoContainerForum {
+  width: 500px;
+  margin-top: 5px;
+}
+
+#nomeTopico1Forum {
+  background-color: #3d3d3da6;
+  border-radius: 10px;
+  width: 200px;
+}
+
+#nomeTopico1Forum p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.nomeDoTopico {
+  margin-top: 5px;
+}
+
+#section2Forum {
+  margin-bottom: 50px;
+}
+
+/*    CSS CRIAR SESSAO*/
+
+#mainCriarSessao {
+  display: flex;
+  justify-content: center;
+}
+#sectionCriarSessao {
+  width: 676px;
+  height: 835px;
+  background-color: #20202099;
+}
+
+#linhaHorizontalCriarSessao {
+  width: 620px;
+  border: 1px solid #c4c4c4;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sectionCriarSessao h2 {
+  margin-top: 30px;
+}
+#sectionCriarSessao p,
+h2,
+input,
+img,
+button {
+  margin-left: 30px;
+}
+
+#horarioSessao {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#inputTitulo {
+  width: 618px;
+  height: 24px;
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#inputDescricao {
+  width: 618px;
+  height: 95px;
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+}
+
+#inputDate {
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+}
+
+#inputHorario {
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+}
+
+#inputDuracao {
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+}
+
+#inputLocal {
+  width: 618px;
+  height: 24px;
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+#linhaHorizontalCriarSessao2 {
+  width: 620px;
+  border: 1px solid #c4c4c4;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#inputConvidados {
+  width: 518px;
+  height: 24px;
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+#buttomAdicionarAmigos {
+  width: 70px;
+  height: 24px;
+  color: white;
+  background-color: #bc0000;
+  border-radius: 4px;
+  border: none;
+}
+
+#buttomAdicionarAmigos:hover {
+  background-color: black;
+  transition: 0.3s;
+}
+
+#imagemIconeCriarSessao {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#botaoCriarSessao {
+  width: 222px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: #bc0000;
+  border-radius: 4px;
+  border: none;
+  margin-left: 230px;
+  margin-top: 120px;
+}
+
+#botaoCriarSessao:hover {
+  background-color: black;
+  transition: 0.3s;
+}

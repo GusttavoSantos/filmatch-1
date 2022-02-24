@@ -1,0 +1,62 @@
+<%-include('./partials/head')%>
+
+<body>
+  <%-include('./partials/header')%>
+  <main id="mainCriarSessao">
+    <section id="sectionCriarSessao">
+      <h2>Crie uma sessão</h2>
+      <div id="linhaHorizontalCriarSessao"></div>
+      <form action="">
+        <p>Titulo da sessão</p>
+        <div>
+          <input id="inputTitulo" type="text" value="Titulo do filme" />
+        </div>
+        <p>Descrição</p>
+        <div><input id="inputDescricao" type="text" name="" id="" /></div>
+        <div id="horarioSessao">
+          <p>Data</p>
+          <input id="inputDate" type="date" />
+          <p>Horário</p>
+          <input id="inputHorario" type="time" />
+          <p>Duração</p>
+          <input id="inputDuracao" type="time" />
+        </div>
+        <p>Local</p>
+        <div><input id="inputLocal" type="text" value="Link para o Discord"/></div>
+        <div id="linhaHorizontalCriarSessao2"></div>
+        <p>Convidados</p>
+        <div>
+          <input
+            id="inputConvidados"
+            type="email"
+            value="E-mail dos convidados"
+          />
+          <button id="buttomAdicionarAmigos" type="submit">
+            <strong>Adicionar</strong>
+          </button>
+        </div>
+        <div id="imagemIconeCriarSessao">
+          <img
+            src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+            alt="icone usuario"
+          />
+          <img
+            src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+            alt="icone usuario"
+          />
+          <img
+            src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+            alt="icone usuario"
+          />
+          <img
+            src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+            alt="icone usuario"
+          />
+        </div>
+        <button id="botaoCriarSessao" type="submit">
+          <strong>Criar sessão</strong>
+        </button>
+      </form>
+    </section>
+  </main>
+</body>

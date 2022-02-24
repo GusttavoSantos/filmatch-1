@@ -1,0 +1,58 @@
+<%-include('./partials/head')%>
+
+<%-include('./partials/header')%>
+  <body>
+    <main class="mainCadastro">
+      <section id="section1">
+        <div id="apresentacaoCadastro">
+          <h3>Seu serviço de  filmes favorito com os seus melhores amigos.</h3>
+          <p>Encontre sessoes de seus filmes favoritos,conheça novas pessoas, faça novas amizades e se divirta! </p>
+        </div>
+        <div id="posterCadastro">
+          <img src="/images/imagens-pagina-de-cadastro/posterLaranjaMecanica.svg" alt="Poster Laranja Mecanica" >
+          <img id="posterOdisseia" src="/images/imagens-pagina-de-cadastro/Poster Odisseia Francesa (1).svg" alt="poster odisseia francesa" >
+        </div>
+      </section>
+      <section id="section2">
+        <form id='formularioCadastro'action="">
+          <div id="cadastro">
+            <strong><p>Cadastro</p></strong>
+          <p>Ja possui conta? <strong><a href="#" style='text-decoration: none' >Clique aqui</a></strong></p>
+          </div>
+          <div>
+            <p id="form">Nome</p>
+            <input type="text" name="nome" id="nome">
+          </div>
+          <div>
+            <p id="form">Email</p>
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+            <p id="form">Senha</p>
+            <input type="password" name="senha" id="senha">
+          </div>
+          <div>
+            <p id="form">Confirme Sua Senha</p>
+            <input type="password" name="confirmarSenha" id="confirmarSenha">
+          </div>
+          <div>
+            <label for="dataDeNascimento">Data De Nascimento</label>
+            <input type="date" name="dataDeNascimento" id="dataDeNascimento">
+          </div>
+          <div>
+            <label for="gerero">Gênero</label>
+            <select id="genero">
+              <option selected disabled value="">Selecione</option>
+                  <option>Cisgênero</option>
+                  <option>Transgênero</option>
+                  <option>Não-binário</option>
+            </select>
+          </div>
+          <p id="criarContaHome">Ao clicar em “Criar Conta”, eu aceito que li e aceitei os <strong><a  href="#">Termos de Uso e Políticas de Privacidade</a></strong>.</p>
+          <button class="botaoSubmit" type="submit">Criar conta</button>
+         </section>
+          </form>
+      </section>
+    </main>
+  </body>
+</html>
