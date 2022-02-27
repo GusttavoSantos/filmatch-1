@@ -35,6 +35,62 @@ ul {
 /* CSS HEADER*/
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgba(13, 13, 13);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+li, a {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 16px;
+}
+
+header .logo-name a {
+  background: -webkit-linear-gradient(to right, var(--white), var(--main-color));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, var(--white), var(--main-color));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+  padding: 0px;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: var(--main-light);
+}
+
+/*CSS FOOTER */
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #0d0d0d;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 /*CSS MAIN CADASTRO*/
@@ -64,7 +120,7 @@ main {
 }
 
 #posterCadastro {
-  margin-top: 60px;
+  margin-top: 53px;
   margin-left: 200px;
   margin-bottom: 50px;
 }
@@ -74,12 +130,13 @@ main {
 }
 
 #section2 {
-  width: 518px;
+  width: 540px;
   height: 597px;
   background: rgba(196, 196, 196, 0.1);
   margin-left: 250px;
   margin-top: 73px;
-  margin-bottom: 120px;
+  margin-bottom: 74px;
+  border-radius: 10px;
 }
 
 #formularioCadastro {
