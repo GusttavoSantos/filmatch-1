@@ -3,17 +3,17 @@
 <%-include('./partials/header')%>
   <body>
     <main class="mainCadastro">
-      <section id="section1">
-        <div id="apresentacaoCadastro">
+      <section class="section1">
+        <div class="apresentacaoCadastro">
           <h3>Seu serviço de  filmes favorito com os seus melhores amigos.</h3>
           <p>Encontre sessoes de seus filmes favoritos,conheça novas pessoas, faça novas amizades e se divirta! </p>
         </div>
-        <div id="posterCadastro">
+        <div class="posterCadastro">
           <img src="/images/imagens-pagina-de-cadastro/posterLaranjaMecanica.svg" alt="Poster Laranja Mecanica" >
-          <img id="posterOdisseia" src="/images/imagens-pagina-de-cadastro/Poster Odisseia Francesa (1).svg" alt="poster odisseia francesa" >
+          <img class="posterOdisseia" src="/images/imagens-pagina-de-cadastro/Poster Odisseia Francesa (1).svg" alt="poster odisseia francesa" >
         </div>
       </section>
-      <section id="section2">
+      <section class="section2">
         <form id='formularioCadastro'action="">
           <div id="cadastro">
             <strong><p>Cadastro</p></strong>
@@ -24,35 +24,34 @@
             <input type="text" name="nome" id="nome">
           </div>
           <div>
-            <p id="form">Email</p>
+            <p>Email</p>
             <input type="email" name="email" id="email">
           </div>
           <div>
-            <p id="form">Senha</p>
+            <p>Senha</p>
             <input type="password" name="senha" id="senha">
           </div>
           <div>
-            <p id="form">Confirme Sua Senha</p>
+            <p >Confirme Sua Senha</p>
             <input type="password" name="confirmarSenha" id="confirmarSenha">
-          </div>
-          <div>
-            <label for="dataDeNascimento">Data De Nascimento</label>
+            <label  for="dataDeNascimento"><p>Data De Nascimento</p></label>
             <input type="date" name="dataDeNascimento" id="dataDeNascimento">
           </div>
           <div>
-            <label for="gerero">Gênero</label>
-            <select id="genero">
-              <option selected disabled value="">Selecione</option>
+            <label for="gerero"><p>Gênero</p></label>
+            <select>
+              <option id="genero" selected disabled value="">Selecione</option>
                   <option>Cisgênero</option>
                   <option>Transgênero</option>
                   <option>Não-binário</option>
             </select>
           </div>
           <p id="criarContaHome">Ao clicar em “Criar Conta”, eu aceito que li e aceitei os <strong><a  href="#">Termos de Uso e Políticas de Privacidade</a></strong>.</p>
-          <button class="botaoSubmit" type="submit">Criar conta</button>
+          <button class="btn" type="submit">Criar conta</button>
          </section>
           </form>
       </section>
     </main>
+    <%-include('./partials/footer')%>
   </body>
 </html>
