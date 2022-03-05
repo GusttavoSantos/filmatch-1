@@ -3,7 +3,7 @@
 
 /* variables */
 :root {
-  --main-color: #8e0e00;
+  --main-color: #8E0E00;
   --main-light: #9c382d;
   --dark: #0d0d0d;
   --white: #f5f4f3;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   font-size: 16px;
   color: var(--white-light);
-  background-image: url('/images/backgroundImage.svg');
+  background-image: url('/images/background.svg');
   background-size: cover;
 }
 
@@ -48,71 +48,9 @@ ul {
   list-style: none;
 }
 
-<<<<<<< HEAD
 .container {
   max-width: 1920px;
   margin: auto;
-=======
-/* CSS HEADER*/
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  background-color: rgba(13, 13, 13);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
-}
-
-li, a {
-  font-weight: 500;
-  text-decoration: none;
-  color: var(--white);
-  font-size: 16px;
-}
-
-header .logo-name a {
-  background: -webkit-linear-gradient(to right, var(--white), var(--main-color));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, var(--white), var(--main-color));
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  text-decoration: none;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: transparent;
-  font-weight: 700;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-
-.nav_links {
-  list-style: none;
-  padding: 0px;
-}
-
-.nav_links li {
-  display: inline-block;
-  padding: 0px 20px 0px 0px;
-}
-
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-  color: var(--main-light);
-}
-
-/*CSS FOOTER */
-
-footer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 30px 10%;
-  background-color: #0d0d0d;
-  border-top: 2px solid rgba(255, 255, 255, 0.4);
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
 }
 
 .row {
@@ -120,41 +58,12 @@ footer {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .section_title {
   width: 100%;
   padding: 0 10px;
   text-align: center;
   font-size: 20px;
   color: var(--white);
-=======
-#apresentacaoCadastro h3 {
-  font-size: 40px;
-}
-
-#apresentacaoCadastro p {
-  font-size: 19px;
-}
-
-#posterCadastro {
-  margin-top: 53px;
-  margin-left: 200px;
-  margin-bottom: 50px;
-}
-
-#posterOdisseia {
-  margin-left: 20px;
-}
-
-#section2 {
-  width: 540px;
-  height: 597px;
-  background: rgba(196, 196, 196, 0.1);
-  margin-left: 250px;
-  margin-top: 73px;
-  margin-bottom: 74px;
-  border-radius: 10px;
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
 }
 
 .img_title {
@@ -199,8 +108,7 @@ header {
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-li,
-a {
+li, a {
   font-weight: 500;
   text-decoration: none;
   color: var(--white);
@@ -208,11 +116,7 @@ a {
 }
 
 header .logo-name a {
-  background: -webkit-linear-gradient(
-    to right,
-    var(--white),
-    var(--main-color)
-  );
+  background: -webkit-linear-gradient(to right, var(--white), var(--main-color));
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, var(--white), var(--main-color));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -231,62 +135,9 @@ header .logo-name a {
   padding: 0px;
 }
 
-<<<<<<< HEAD
 .nav_links li {
   display: inline-block;
   padding: 0px 20px 0px 0px;
-=======
-@media (min-width:400px) and (max-width:600px)
-{
-  main{
-    display: flex;
-    flex-direction: column;
-  }
-  #apresentacaoCadastro {
-    width: 270px;
-    margin-left: 100px;
-}
-#apresentacaoCadastro h3 {
-  font-size: 25px;
-}
-
-#apresentacaoCadastro p {
-  font-size: 15px;
-  margin-top: 10px;
-}
-
-#posterCadastro {
-  margin-top: 53px;
-  margin-left: 70px;
-  margin-bottom: 50px;
-}
-
-#posterOdisseia {
-  margin-left: 30px;
-  margin-top: 20px;
-}
-#section2 {
-  width: 350px;
-  height: 650px;
-  background: rgba(196, 196, 196, 0.1);
-  margin-left:50px ;
-  margin-top: 73px;
-  margin-bottom: 74px;
-  border-radius: 10px;
-}
-#formularioCadastro input{
-  width: 260px;
-}
-}
-
-
-
-
-/* CSS RESULTADO FILME*/
-
-#sectionSinopse {
-  display: flex;
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
 }
 
 .nav_links li a {
@@ -308,396 +159,467 @@ footer {
   border-top: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-/*CSS MAIN CADASTRO*/
+/* top movies */
 
-.mainCadastro {
+.movie_item {
+  width: calc(100% / 5);
+  padding: 0 15px;
+  position: relative;
+}
+
+.movie_item img {
+  width: 100%;
+  height: 80%;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+}
+
+.title_movie {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  height: 20%;
+}
+
+main{
+  display: flex;
+  background-image: url(/images/backgroundImage.svg);
+}
+
+/* CSS HOME PAGINA CADASTRO*/
+
+.mainCadastro{
   display: flex;
 }
 
-.section1 {
+.section1 h3{
+  margin-left: 130px;
+  font-weight: 700;
+  font-size: 30px;
+  width: 717px;
+  text-transform: none;
+  margin-bottom: 0%;
+}
+
+.section1 p{
+  margin-left: 130px;
+  margin-top: 0%;
+  margin-top: 10px;
+}
+
+.section1 img{
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+#posterOdisseia{
+  margin-left: 30px;
+}
+
+.section2{
+  width: 518px;
+  height: 729px;
+  background: rgba(196, 196, 196, 0.1);
+  border-radius: 8px;
+  padding: 0%;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.section2 p, input, select{
+  margin-left: 30px;
+}
+
+.section2 input{
+  width: 464px;
+  height: 28px;
+  background-color: #484848;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.section2 button{
+  align-items: center;
+  margin-left: 160px;
+}
+
+@media (min-width: 428px) and (max-width:500px){
+  .mainCadastro{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1 h3{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .section1 p{
+    margin-left: 10px;
+    width: 380px;
+  }
+
+  .section1 img{
+    margin-left: 100px;
+  }
+
+#posterOdisseia{
   margin-left: 100px;
 }
 
-.section1 h3 {
-  font-size: 40px;
-  font-weight: 700;
-  width: 717px;
-  text-transform: none;
+.section2{
+  width: 380px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
-.section1 p {
-  font-size: 20px;
-  width: 717px;
+.section2 input{
+  width: 350px;
+  margin-left: 10px;
 }
 
-.posterCadastro {
-  margin-top: 50px;
+#criarContaHome{
+  margin-bottom: 0%;
 }
 
-.section2 {
-  width: 518px;
-  height: 660px;
-  background: rgba(196, 196, 196, 0.1);
-  border-radius: 20px;
-  margin-left: 300px;
-  margin-top: 50px;
-}
-
-.section2 p {
+.section2 button{
   margin-top: 0;
-  margin-left: 30px;
-}
-
-.section2 input {
-  width: 464px;
-  height: 28px;
-  background: #484848cc;
-  border: none;
-  border-radius: 7px;
-  color: #f5f4f3;
-  margin-left: 30px;
-}
-
-#inputDataNascimento {
-  margin-top: 5px;
-}
-select {
-  margin-left: 30px;
-  background: #484848cc;
-  color: #f5f4f3;
-}
-
-.section2 button {
-  margin-left: 180px;
-}
-
-@media (min-width:400px) and (max-width:600px){
-  #sectionSinopse {
-    display: flex;
-    flex-direction: column;
+  margin-left: 120px;
 }
 }
 
 /* CSS HOME FORUM*/
 
-.forum {
+.forum{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 400px;
   margin-bottom: 150px;
+  margin-top: 53px;
 }
-<<<<<<< HEAD
-.forum div {
+
+.forum p{
+  margin: 0%;
+  margin-left: 100px;
+}
+
+.forum div{
+  align-items: center;
   width: 1092px;
   height: 90px;
-  background-color: #222222;
-  border: solid 3px #696969;
-=======
-
-#sectionForum1 {
-  display: flex;
-  flex-direction: column;
+  background-color:#222222;
+  border-top: 3px solid #ABABAB;
+  border-left: 1px solid #ABABAB;
+  border-right: 1px solid #ABABAB;
+  border-bottom: 1px solid #ABABAB;
+  justify-content: center
+  ;
 }
 
-#sectionForum1 button {
-  width: 171px;
-  height: 30px;
-  border-radius: 14px;
-  background-color: #bc0000;
-  color: white;
-  font-family: 'poppins', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 900px;
-}
-
-#sectionForum1 button:hover {
-  background-color: black;
-  transition: 0.5s;
-}
-
-#mensagensFimatchForum {
-  margin-bottom: 30px;
-  margin-top: 34px;
-}
-
-.container1Forum {
-  display: flex;
-  justify-content: space-around;
-  background-color: #222222;
-  width: 1092px;
-  border-radius: 20px;
-  border-top: 10px solid #ababab4d;
-  margin-bottom: 20px;
-}
-
-#posts1Forum {
-  background-color: #3d3d3da6;
-  border-radius: 10px;
-  width: 100px;
-}
-
-#posts1Forum p {
-  margin-left: 17px;
-  margin-top: 35px;
-}
-
-#conteudoContainerForum {
-  width: 500px;
-  margin-top: 5px;
-}
-
-#nomeTopico1Forum {
-  background-color: #3d3d3da6;
-  border-radius: 10px;
-  width: 200px;
-}
-
-#nomeTopico1Forum p {
-  margin-left: 20px;
-  margin-bottom: 5px;
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
-}
-
-.forum p {
+.forum img{
   margin: 0;
 }
 
-<<<<<<< HEAD
-#mensagensForum {
-  width: 1092px;
-  height: 30px;
-=======
+#mensagensForum{
+  height: 30px ;
+}
 
-@media (min-width:400px) and (max-width:600px){
-  #mainHomeForum {
-    display: block
+@media (min-width: 428px) and (max-width:500px){
+  .mainForum{
+    display: flex;
+    flex-direction: column;
+  }
+.forum{
+  margin-left: 20px;
+}
+.forum div{
+  width: 390px;
+  height: 110px;
+  margin-left: 10px;
 
 }
-.container1Forum {
+}
+
+/* CSS RESULTADO FILME*/ 
+
+.posterResultadoFilme{
+  margin-left: 50px;
+}
+
+.posterResultadoFilme p{
+  margin-left: 75px;
+  font-size: 27px;
+}
+
+.resultadoFilme{
   display: flex;
-  justify-content: space-around;
-  background-color: #222222;
-  width: 406px;
-  border-radius: 20px;
-  border-top: 10px solid #ababab4d;
-  margin-left: 10px;
-  margin-bottom: 30px;
-}
-#section2Forum {
-  margin-bottom: -30px;
 }
 
-#section2Forum p{
-  margin-left: 10px;
-  margin-top: 10px;
-}
-#sectionForum1 button {
-  width: 171px;
-  height: 30px;
-  border-radius: 14px;
-  background-color: #bc0000;
-  color: white;
-  font-family: 'poppins', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-   margin-left: 10px; 
-}
-
-#sectionForum1 p{
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-#posts1Forum {
-  background-color: #3d3d3da6;
+.sinopse{
+  width: 670px;
+  height: 302px;
+  background: rgba(196, 196, 196, 0.1);
   border-radius: 10px;
-  width: 100px;
-  display: flex;
-  align-items: center;
+  margin-left: 30px;
 }
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
-}
-/*    CSS CRIAR SESSAO*/
-<<<<<<< HEAD
-=======
 
-#mainCriarSessao {
+.sinopse p{
+  font-size: 20px;
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sinopse img{
+  margin-left: 30px;
+}
+
+#infoFilme{
+  margin-left: 30px;
+}
+
+.proximasSessoes{
+  width: 670px;
+  height: 302px;
+  background: rgba(196, 196, 196, 0.1);
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.proximaSessao{
+  display: flex;
+  width: 378px;
+  height: 42px;
+  background-color:#202020 ;
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.proximasSessoes p{
+  margin-left: 100px;
+}
+
+.proximasSessoes button{
+  margin-left: 200px;
+  margin-top: 130px;
+}
+
+.forumResultadoFIlme{
+  width: 550px;
+  height: 696px;
+  background: rgba(196, 196, 196, 0.1);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 53px;
+}
+
+.forumResultadoFIlme p{
+  margin-left: 10px;
+}
+
+.atividadesForum{
+  display: flex;
+  margin-left: 30px;
+}
+.atividadesForum p{
+  margin: 0;
+  margin-left: 20px;
+}
+.conteudoAtividadeForum{
+  width: 440px;
+  height: 100px;
+  background: #484848;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.conteudoAtividadeForum p{
+  width: 430px;
+}
+
+#horarioUltimasAtividadesForum{
+  display: flex;
+}
+#horarioUltimasAtividadesForum p{
+  margin-left: 30px;
+}
+#horarioUltimasAtividadesForum button{
+  width:100px ;
+  height: 30px;
+  font-size: 13px;
+  font-family: 'poppins';
+  background-color: #BC0000;
+  color:#f5f4f3; 
+  border-radius: 8px;
+  border: none;
+  margin-left: 150px;
+  margin-top: 13px;
+}
+
+#linhaHorizontalUltimasAtividadesForum{
+  width: 400px;
+  border: 1px solid #c4c4c4;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+@media (min-width: 428px) and (max-width:500px){
+  .mainResultadoFilme{
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+  }
+  .resultadoFilme{
+    flex-direction: column;
+  }
+  .posterResultadoFilme{
+    margin-left: 100px;
+  
+  }
+
+  .sinopse{
+    width: 410px;
+    height: 320px;
+    margin-left: 10px;
+  }
+  .sinopse p{
+    width: 380px;
+  }
+  .proximasSessoes{
+    width: 410px;
+    margin-left: 10px;
+  }
+  .proximaSessao{
+    margin-left: 10px;
+  }
+
+  .proximasSessoes button{
+    margin-left: 70px;
+  }
+
+  .forumResultadoFIlme{
+    width: 410px;
+    margin-left: 10px;
+  }
+
+  .conteudoAtividadeForum{
+    width: 380px;
+    margin-left: 10px;
+  }
+
+ 
+  .conteudoAtividadeForum p {
+    width: 370px;
+  }
+
+  #linhaHorizontalUltimasAtividadesForum{
+    width: 280px;
+  }
+
+  #infoFilme{
+    margin-left: 10px;
+    width: 380px;
+  }
+}
+
+/*CSS CRIAR SESSAO*/
+.mainCriarSessao{
   display: flex;
   justify-content: center;
 }
-#sectionCriarSessao {
-  width: 676px;
-  height: 835px;
-  background-color: #20202099;
+.criarSessao{
+  width: 710px;
+  height: 755px;
+  background: rgba(196, 196, 196, 0.1);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
 }
 
-#linhaHorizontalCriarSessao {
-  width: 620px;
-  border: 1px solid #c4c4c4;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#sectionCriarSessao h2 {
-  margin-top: 30px;
-}
-#sectionCriarSessao p,
-h2,
-input,
-img,
-button {
-  margin-left: 30px;
-}
-
-#horarioSessao {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#inputTitulo {
-  width: 618px;
-  height: 24px;
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 10px;
-}
-
-#inputDescricao {
-  width: 618px;
-  height: 95px;
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-}
-
-#inputDate {
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-}
-
-#inputHorario {
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-}
-
-#inputDuracao {
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-}
-
-#inputLocal {
-  width: 618px;
-  height: 24px;
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 15px;
-}
-
-#linhaHorizontalCriarSessao2 {
-  width: 620px;
-  border: 1px solid #c4c4c4;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#inputConvidados {
-  width: 518px;
-  height: 24px;
-  color: white;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  border: none;
-  margin-top: 5px;
-}
-
-#buttomAdicionarAmigos {
-  width: 70px;
-  height: 24px;
-  color: white;
-  background-color: #bc0000;
-  border-radius: 4px;
-  border: none;
-}
-
-#buttomAdicionarAmigos:hover {
-  background-color: black;
-  transition: 0.3s;
-}
-
-#imagemIconeCriarSessao {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#botaoCriarSessao {
-  width: 222px;
-  height: 50px;
-  font-size: 20px;
-  color: white;
-  background-color: #bc0000;
-  border-radius: 4px;
-  border: none;
-  margin-left: 230px;
-  margin-top: 120px;
-}
-
-#botaoCriarSessao:hover {
-  background-color: black;
-  transition: 0.3s;
-}
-
-@media (min-width:400px) and (max-width:600px)
-{
-  #sectionCriarSessao {
-    width: 350px;
-    height: 835px;
-    margin-left: 30px;
-}
-#sectionCriarSessao input{
-  width: 300px;
-}
-#linhaHorizontalCriarSessao {
-  width: 290px;
-
-} 
-
-#horarioSessao {
-  display: flex;
-  flex-direction: column;
-}
-
-#linhaHorizontalCriarSessao2 {
-  width: 290px;
-}
-#buttomAdicionarAmigos {
+.criarSessao p{
   margin-top: 10px;
 }
 
-#botaoCriarSessao {
-  width: 222px;
-  height: 50px;
-  font-size: 20px;
-  color: white;
-  background-color: #bc0000;
-  border-radius: 4px;
+.criarSessao p, h2{
+  margin-left: 20px;
+}
+
+.inputCriarSessao{
+  width: 618px;
+  height: 24px;
+  background-color: #2d2d2d;
+  color: #f5f4f3; 
   border: none;
-  margin-left: 65px;
-  margin-top: 0px;
+  border-radius: 5px;
 }
+
+#inputDescricaoCriarSessao{
+  width: 618px;
+  height: 95px;
+  background-color: #2d2d2d;
+  color: #f5f4f3; 
+  border: none;
+  border-radius: 5px;
 }
->>>>>>> fdef627413d1efa1ec1bab429d2b9a88155dda51
+
+.inputDate{
+  width: 154px;
+  height: 24px;
+  background-color: #2d2d2d;
+  color: #f5f4f3; 
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.inputCriarSessao2{
+  display: flex;
+  align-items: center;
+}
+
+#buttonAdicionar{
+  width: 110px;
+  height: 30px;
+  background-color:#BC0000CC;
+  border: none;
+  border-radius: 10px;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.criarSessao img{
+  margin-left: 20px;
+}
+.criarSessao button{
+  margin-left: 250px;
+  margin-top: 10px;
+}
+@media (min-width: 428px) and (max-width:500px){
+  .criarSessao{
+    width: 400px;
+  }
+
+  .inputCriarSessao{
+    width: 380px;
+    margin-left: 10px;
+  }
+
+  #inputDescricaoCriarSessao{
+    width: 380px;
+    margin-left: 10px;
+  }
+
+  .criarSessao button{
+    margin-left: 130px;
+  }  
+}
